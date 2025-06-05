@@ -12,9 +12,14 @@ Paso 2 - Registrar cambios
 Paso 3 - Crear backups (commits)
 - git commit -m "nombre de commit" -> Commit veloz, solo pide titulo.
 - git commit -> Abre cajon, permite colocar descripcion. Se guarda al cerrar el cajon.
-git log -> Permite ver la lista de commits realizados. El que tenga el HEAD es el ultimo realizado.
+- git log -> Permite ver la lista de commits realizados. El que tenga el HEAD es el ultimo realizado.
 - git checkout "id commit" -> Me muevo a la version del commit correspondiente al ID ingresado.
 
 Paso 4 - Pushear cambios de PC al repo
 - git push origin <nombre-rama-remota> -> Envia cambios a la rama principal o rama remota
 - git push -> Enviar cambios a rama paralela
+
+Paso 5 - Crear una rama paralela
+- git branch <nombre-rama> -> Crea una rama
+- git checkout <nombre-rama> -> Movernos a la rama <nombre-rama>
+- git checkout -b <nombre-rama> -> Crear una rama y movernos automaticamente a ella.
