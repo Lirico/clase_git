@@ -19,7 +19,14 @@ Paso 4 - Pushear cambios de PC al repo
 - git push origin <nombre-rama-remota> -> Envia cambios a la rama principal o rama remota
 - git push -> Enviar cambios a rama paralela
 
-Paso 5 - Crear una rama paralela
+Pas 5 - Descargar cambios pusheados de Repo a PC
+- git pull -> Trae los cambios de la rama en la que estamos parados de repo a PC.
+
+Paso 6 - Crear una rama paralela
 - git branch <nombre-rama> -> Crea una rama
 - git checkout <nombre-rama> -> Movernos a la rama <nombre-rama>
 - git checkout -b <nombre-rama> -> Crear una rama y movernos automaticamente a ella.
+
+Paso 7 - Fusiones
+- git merge <nombre-rama-a-fusionar> -> Tiramos este comando parados en la rama que quiere
+recibir la fusion, y fusionamos <nombre-rama-a-fusionar> con la rama en la que estamos parados.
