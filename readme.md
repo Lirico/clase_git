@@ -13,3 +13,4 @@ Paso 3 - Crear backups (commits)
 git commit -m "nombre de commit" -> Commit veloz, solo pide titulo.
 git commit -> Abre cajon, permite colocar descripcion. Se guarda al cerrar el cajon.
 git log -> Permite ver la lista de commits realizados. El que tenga el HEAD es el ultimo realizado.
+git checkout "id commit" -> Me muevo a la version del commit correspondiente al ID ingresado.
